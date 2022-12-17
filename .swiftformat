@@ -1,0 +1,82 @@
+# Rules enabled
+
+--rules                           \
+blankLinesAroundMark,             \
+blankLinesAtEndOfScope,           \
+blankLinesAtStartOfScope,         \
+blankLinesBetweenScopes,          \
+braces,                           \
+consecutiveBlankLines,            \
+consecutiveSpaces,                \
+duplicateImports,                 \
+emptyBraces,                      \
+enumNamespaces,                   \
+extensionAccessControl,           \
+fileHeader,                       \
+hoistPatternLet,                  \
+indent,                           \
+leadingDelimiters,                \
+linebreakAtEndOfFile,             \
+organizeDeclarations,             \
+redundantInit,                    \
+redundantParens,                  \
+redundantPattern,                 \
+redundantRawValues,               \
+redundantType,                    \
+redundantVoidReturnType,          \
+semicolons,                       \
+sortedImports,                    \
+sortedSwitchCases,                \
+spaceAroundBraces,                \
+spaceAroundBrackets,              \
+spaceAroundComments,              \
+spaceAroundGenerics,              \
+spaceAroundOperators,             \
+spaceAroundParens,                \
+spaceInsideBraces,                \
+spaceInsideBrackets,              \
+spaceInsideComments,              \
+spaceInsideGenerics,              \
+spaceInsideParens,                \
+todos,                            \
+trailingClosures,                 \
+trailingCommas,                   \
+trailingSpace,                    \
+typeSugar,                        \
+void,                             \
+wrap,                             \
+wrapArguments,                    \
+wrapAttributes,                   \
+andOperator,                      \
+isEmpty,                          \
+redundantBackticks,               \
+redundantBreak,                   \
+redundantExtensionACL,            \
+redundantGet,                     \
+redundantLetError,                \
+redundantNilInit,                 \
+redundantObjc,                    \
+redundantReturn,                  \
+redundantSelf,                    \
+strongifiedSelf
+
+--extensionacl on-extension
+--funcattributes prev-line
+--indent 4
+--maxwidth 180
+--markcategories false
+--typeattributes prev-line
+--varattributes prev-line
+--voidtype tuple
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--wrapreturntype if-multiline
+--wrapconditions after-first 
+
+# Option for additional rules
+
+--self init-only
+
+# Option for header
+--header "{file} \n\nMIT License\n\nCopyright (c) {year} Sinan Ege\n"
